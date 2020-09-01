@@ -60,7 +60,8 @@
 		42EE850924FE76FA00A3C246 /* AcievementsVStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcievementsVStack.swift; sourceTree = "<group>"; };
 		42EE850B24FE7CAB00A3C246 /* SettingsPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPopUpView.swift; sourceTree = "<group>"; };
 		42EE850D24FE830B00A3C246 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
-		42EE850F24FEC59C00A3C246 /* Годвилльская гляделка.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "Годвилльская гляделка.app"; sourceTree = "<group>"; };
+		42EE851224FEC72300A3C246 /* w_token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = w_token.png; sourceTree = "<group>"; };
+		42EE851324FEC72300A3C246 /* wo_token.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wo_token.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 		4216221324F6C80500FF7C2E = {
 			isa = PBXGroup;
 			children = (
-				42EE850F24FEC59C00A3C246 /* Годвилльская гляделка.app */,
+				42EE851124FEC6E700A3C246 /* Sources */,
 				4216221E24F6C80500FF7C2E /* GodvilleHelper */,
 				4216221D24F6C80500FF7C2E /* Products */,
 			);
@@ -161,6 +162,15 @@
 				42EE850D24FE830B00A3C246 /* File.swift */,
 			);
 			path = "Game Views";
+			sourceTree = "<group>";
+		};
+		42EE851124FEC6E700A3C246 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				42EE851224FEC72300A3C246 /* w_token.png */,
+				42EE851324FEC72300A3C246 /* wo_token.png */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
