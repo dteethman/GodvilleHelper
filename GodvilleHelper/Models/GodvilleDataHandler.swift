@@ -39,7 +39,6 @@ class GodvilleDataHandler: ObservableObject {
         }
         
         URLSession.shared.dataTask(with: url) { (data, response, error) in
-            print("API call")
             guard let data = data else { return }
             
             do {
